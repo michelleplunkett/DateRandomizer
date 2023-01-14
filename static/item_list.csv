@@ -1,0 +1,67 @@
+Item,Category,Alcohol,Formality,Budget,Budget_Value,Location,Preparation_Required
+Dress down,Dress,FALSE,Casual,Free,0,Indoors,FALSE
+Dress up,Dress,FALSE,Fancy,Free,0,Indoors,FALSE
+REI Shopping,Activity,FALSE,Casual,$$$,3,Indoors,FALSE
+Movie at home,Activity,FALSE,Casual,Free,0,Home,FALSE
+Bowling,Activity,FALSE,Casual,$,1,Indoors,TRUE
+The Good Lot,Activity,TRUE,Casual,$,1,Indoors,FALSE
+Brewery,Activity,TRUE,Casual,$,1,Indoors,TRUE
+Target Shopping,Activity,FALSE,Casual,$$,2,Indoors,FALSE
+DIY Drink Tasting,Activity,TRUE,Casual,$$,2,Home,TRUE
+Hockey game,Activity,FALSE,Casual,$$,2,Indoors,TRUE
+Eat at a nice restaurant ,Food,FALSE,Fancy,$$$,3,Indoors,TRUE
+Order food delivery,Food,FALSE,Casual,$$,2,Home,FALSE
+Go get fast food,Food,FALSE,Casual,$,1,Indoors,FALSE
+Eat at a fast casual restaurant,Food,FALSE,Casual,$,1,Indoors,FALSE
+Frozen yogurt,Treat,FALSE,Casual,$,1,Indoors,FALSE
+Ice cream,Treat,FALSE,Casual,$,1,Indoors,FALSE
+Wendy's frosty,Treat,FALSE,Casual,$,1,Indoors,FALSE
+DQ Blizzard,Treat,FALSE,Casual,$,1,Indoors,FALSE
+Candy from gas station,Treat,FALSE,Casual,$,1,Indoors,FALSE
+Go on a hike,Activity,FALSE,Casual,Free,0,Outdoors,TRUE
+Bike ride in neighborhood,Activity,FALSE,Casual,Free,0,Outdoors,FALSE
+Painting tutorial,Activity,FALSE,Casual,$,1,Home,TRUE
+YouTube,Activity,FALSE,Casual,Free,0,Home,FALSE
+Volunteer,Activity,FALSE,Casual,Free,0,Outdoors,TRUE
+DIY Wine Tasting,Activity,TRUE,Casual,$$,2,Home,TRUE
+Local food tour,Activity,FALSE,Casual,$$,2,Indoors,TRUE
+Cooking competition,Activity,FALSE,Casual,$,1,Home,TRUE
+Cooking class,Activity,FALSE,Casual,$$,2,Indoors,TRUE
+Hot chocolate,Treat,FALSE,Casual,Free,0,Home,FALSE
+DIY Beer Sampling,Activity,TRUE,Casual,$$,2,Home,TRUE
+Swimming,Activity,FALSE,Casual,Free,0,Outdoors,FALSE
+Hot Tub,Activity,FALSE,Casual,Free,0,Home,FALSE
+Watch a movie,Activity,FALSE,Casual,Free,0,Home,FALSE
+Go see a movie,Activity,FALSE,Casual,$,1,Indoors,TRUE
+Play video games,Activity,FALSE,Casual,Free,0,Home,FALSE
+Play a board game,Activity,FALSE,Casual,Free,0,Home,FALSE
+Take dogs for a walk,Activity,FALSE,Casual,Free,0,Home,FALSE
+Go to a museum,Activity,FALSE,Casual,$,1,Indoors,TRUE
+DIY Spa Day,Activity,FALSE,Casual,$,1,Home,TRUE
+Ask each other 20 questions,Activity,FALSE,Casual,Free,0,Home,FALSE
+Go camping,Activity,FALSE,Casual,$,1,Outdoors,TRUE
+Take dogs for a walk at a park,Activity,FALSE,Casual,Free,0,Outdoors,FALSE
+Go to the farmer's market,Activity,FALSE,Casual,Free,0,Outdoors,TRUE
+Go mini-golfing,Activity,FALSE,Casual,$,1,Outdoors,FALSE
+Go to Top Golf,Activity,FALSE,Casual,$$,2,Outdoors,FALSE
+Go to a Trivia night,Activity,FALSE,Casual,Free,0,Indoors,TRUE
+Go for a drive,Activity,FALSE,Casual,Free,0,Outdoors,FALSE
+Cook at home with ingredients on-hand,Food,FALSE,Casual,Free,0,Home,FALSE
+Bake at home with ingredients on-hand,Treat,FALSE,Casual,Free,0,Home,FALSE
+Go to a show,Activity,FALSE,Fancy,$$,2,Indoors,TRUE
+Go to an ice cream shop,Treat,FALSE,Casual,$,1,Indoors,FALSE
+Eat dessert on-hand,Treat,FALSE,Casual,Free,0,Home,FALSE
+Pick up food to go,Food,FALSE,Casual,$,1,Outdoors,FALSE
+Bring food from home,Food,FALSE,Casual,Free,0,Outdoors,FALSE
+Bring dessert from home,Treat,FALSE,Casual,Free,0,Outdoors,FALSE
+Buy candy from a gas station,Treat,FALSE,Casual,$,1,Outdoors,FALSE
+Plan a dream vacation,Activity,FALSE,Casual,Free,0,Home,FALSE
+Play with your pets,Activity,FALSE,Casual,Free,0,Home,FALSE
+Have a campfire,Activity,FALSE,Casual,Free,0,Home,FALSE
+Dress for the outdoors,Dress,FALSE,Casual,Free,0,Outdoors,FALSE
+Go to a comedy show,Activity,FALSE,Casual,$,1,Indoors,TRUE
+Do a small DIY project together,Activity,FALSE,Casual,$$,2,Home,TRUE
+Wear pajamas,Dress,FALSE,Casual,Free,0,Home,FALSE
+Comfy clothes,Dress,FALSE,Casual,Free,0,Home,FALSE
+Go to a workout class together,Activity,FALSE,Casual,$,1,Indoors,TRUE
+Order pizza,Food,FALSE,Casual,$,1,Home,FALSE

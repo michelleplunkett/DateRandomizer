@@ -1,0 +1,662 @@
+[
+  {
+    "Item": "Dress down",
+    "Category": "Dress",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Dress up",
+    "Category": "Dress",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Fancy",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "REI Shopping",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$$",
+    "Budget Value": 3,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Movie at home",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Bowling",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "The Good Lot",
+    "Category": "Activity",
+    "Includes Alcohol": "TRUE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Brewery",
+    "Category": "Activity",
+    "Includes Alcohol": "TRUE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Target Shopping",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "DIY Drink Tasting",
+    "Category": "Activity",
+    "Includes Alcohol": "TRUE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Home",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Hockey game",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Eat at a nice restaurant",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Fancy",
+    "Budget": "$$$",
+    "Budget Value": 3,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Order food delivery",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go get fast food",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Eat at a fast casual restaurant",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Frozen yogurt",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Ice cream",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Wendy's frosty",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "DQ Blizzard",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Candy from gas station",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go on a hike",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Bike ride in neighborhood",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Painting tutorial",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Home",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "YouTube",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Volunteer",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "DIY Wine Tasting",
+    "Category": "Activity",
+    "Includes Alcohol": "TRUE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Home",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Local food tour",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Cooking competition",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Home",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Cooking class",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Hot chocolate",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "DIY Beer Sampling",
+    "Category": "Activity",
+    "Includes Alcohol": "TRUE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Home",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Swimming",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Hot Tub",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Watch a movie",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go see a movie",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Play video games",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Play a board game",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Take dogs for a walk",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go to a museum",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "DIY Spa Day",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Home",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Ask each other 20 questions",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go camping",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Outdoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Take dogs for a walk at a park",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go to the farmer's market",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Go mini-golfing",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go to Top Golf",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go to a Trivia night",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Go for a drive",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Cook at home with ingredients on-hand",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Bake at home with ingredients on-hand",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go to a show",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Fancy",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Go to an ice cream shop",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Eat dessert on-hand",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Pick up food to go",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Bring food from home",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Bring dessert from home",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Buy candy from a gas station",
+    "Category": "Treat",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Plan a dream vacation",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Play with your pets",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Have a campfire",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Dress for the outdoors",
+    "Category": "Dress",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Outdoors",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go to a comedy show",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Do a small DIY project together",
+    "Category": "Activity",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$$",
+    "Budget Value": 2,
+    "Location": "Home",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Wear pajamas",
+    "Category": "Dress",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Comfy clothes",
+    "Category": "Dress",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "Free",
+    "Budget Value": 0,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  },
+  {
+    "Item": "Go to a workout class together",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Indoors",
+    "Preparation Required": "TRUE"
+  },
+  {
+    "Item": "Order pizza",
+    "Category": "Food",
+    "Includes Alcohol": "FALSE",
+    "Formality": "Casual",
+    "Budget": "$",
+    "Budget Value": 1,
+    "Location": "Home",
+    "Preparation Required": "FALSE"
+  }
+]
