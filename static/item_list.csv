@@ -65,3 +65,71 @@ Wear pajamas,Dress,FALSE,Casual,Free,0,Home,FALSE
 Comfy clothes,Dress,FALSE,Casual,Free,0,Home,FALSE
 Go to a workout class together,Activity,FALSE,Casual,$,1,Indoors,TRUE
 Order pizza,Food,FALSE,Casual,$,1,Home,FALSE
+Visit a local park,Activity,False,Casual,Free,0,Outdoors,False
+Go to a fancy restaurant,Food,True,Fancy,$$$,3,Indoors,False
+Make homemade pizza,Food,False,Casual,$,1,Home,True
+Visit an art museum,Activity,False,Fancy,$$,2,Indoors,False
+Attend a concert,Activity,True,Casual,$$$,3,Outdoors,False
+Take a dance class,Activity,False,Casual,$,1,Indoors,True
+Visit a local winery,Treat,True,Casual,$$,2,Outdoors,False
+Go to a rooftop bar,Treat,True,Casual,$$$,3,Indoors,False
+Have a picnic in a park,Food,False,Casual,Free,0,Outdoors,True
+Go to a comedy club,Activity,True,Casual,$,1,Indoors,False
+Visit a zoo,Activity,False,Casual,$,1,Outdoors,False
+Take a pottery class,Activity,False,Casual,$$,2,Indoors,True
+Visit a botanical garden,Activity,False,Casual,$,1,Outdoors,False
+Go to a hot air balloon ride,Activity,False,Fancy,$$$,3,Outdoors,False
+Cook a fancy dinner together,Food,True,Fancy,$$$,3,Home,True
+Visit an aquarium,Activity,False,Casual,$,1,Indoors,False
+Take a photography class,Activity,False,Casual,$$,2,Indoors,True
+Wear formal clothes,Dress,False,Fancy,$$$,3,Indoors,False
+Wear a casual outfit,Dress,False,Casual,Free,0,Outdoors,False
+Visit a gelato shop,Treat,False,Casual,$,1,Outdoors,False
+Try a fancy dessert,Treat,False,Fancy,$$$,3,Indoors,False
+Make a homemade dessert,Treat,False,Casual,$,1,Home,True
+Visit a bakery,Treat,False,Casual,$,1,Indoors,False
+Make a homemade ice cream,Treat,False,Casual,$,1,Home,True
+Visit a cupcake shop,Treat,False,Casual,$,1,Indoors,False
+Visit a chocolate shop,Treat,False,Casual,$,1,Indoors,False
+Visit a candy store,Treat,False,Casual,$,1,Indoors,False
+Visit a frozen yogurt shop,Treat,False,Casual,$,1,Indoors,False
+Visit a donut shop,Treat,False,Casual,$,1,Indoors,False
+Visit a pie shop,Treat,False,Casual,$,1,Indoors,False
+Visit a macaron shop,Treat,False,Casual,$,1,Indoors,False
+Visit a crepe shop,Treat,False,Casual,$,1,Indoors,False
+Visit a cheesecake shop,Treat,False,Casual,$,1,Indoors,False
+Make a homemade cake,Treat,False,Casual,$,1,Home,True
+Make homemade cookies,Treat,False,Casual,$,1,Home,True
+Make homemade brownies,Treat,False,Casual,$,1,Home,True
+Make homemade ice cream,Treat,False,Casual,$,1,Home,True
+Make homemade chocolate fondue,Treat,False,Casual,$,1,Home,True
+Make a homemade hot chocolate,Treat,False,Casual,$,1,Home,True
+Make a homemade milkshake,Treat,False,Casual,$,1,Home,True
+Make a homemade fruit sorbet,Treat,False,Casual,$,1,Home,True
+Make a homemade truffles,Treat,False,Casual,$,1,Home,True
+Make a homemade fudge,Treat,False,Casual,$,1,Home,Tru
+Host a dinner party,Activity,True,Fancy,$$$,3,Home,True
+Have a spa night,Activity,False,Fancy,$$$,3,Home,True
+Have a wine and cheese night,Activity,True,Fancy,$$$,3,Home,True
+Have a movie night with fancy cocktails,Activity,True,Fancy,$$$,3,Home,True
+Have a game night with fancy snacks,Activity,True,Fancy,$$$,3,Home,True
+Have a candlelit dinner,Activity,False,Fancy,$$$,3,Home,True
+Have a fancy dress up night,Activity,False,Fancy,$$$,3,Home,True
+Have a fondue night,Activity,True,Fancy,$$$,3,Home,True
+Have a fancy dessert making night,Activity,False,Fancy,$$$,3,Home,True
+Have a fancy cocktail making night,Activity,True,Fancy,$$$,3,Home,True
+Watch a movie with fancy snacks,Activity,True,Fancy,$$$,3,Home,False
+Play a game with fancy drinks,Activity,True,Fancy,$$$,3,Home,False
+Have a fancy dress up night with ready-made meals,Activity,False,Fancy,$$$,3,Home,False
+Have a fancy dessert night with store-bought treats,Activity,False,Fancy,$$$,3,Home,False
+Have a fancy cocktail night with premixed drinks,Activity,True,Fancy,$$$,3,Home,False
+Watch the sunset together,Activity,False,Casual,Free,0,Outdoors,False
+Visit a local park,Activity,False,Casual,Free,0,Outdoors,False
+Go for a hike,Activity,False,Casual,Free,0,Outdoors,False
+Have a picnic,Activity,False,Casual,Free,0,Outdoors,True
+Take a walk around the neighborhood,Activity,False,Casual,Free,0,Outdoors,False
+Wear comfortable clothing,Dress,False,Casual,Free,0,Any,False
+Wear casual clothing,Dress,False,Casual,Free,0,Any,False
+Cook a homemade meal together,Food,False,Casual,Free,0,Home,True
+Visit a farmer's market,Food,False,Casual,Free,0,Outdoors,False
+Make homemade ice cream,Treat,False,Casual,Free,0,Home,True
