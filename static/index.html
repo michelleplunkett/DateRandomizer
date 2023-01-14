@@ -11,125 +11,125 @@
     <script src="app.js"></script>
 </head>
 
-<nav class="navbar navbar-expand-lg navbar-light bg-light">
-    <div class="container-fluid">
-        <a class="navbar-brand" href="index.html">Date Night Randomizer</a>
-        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
-            aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
-            <span class="navbar-toggler-icon"></span>
-        </button>
-        <div class="collapse navbar-collapse" id="navbarColor01">
-            <ul class="navbar-nav me-auto">
-                <li class="nav-item">
-                    <a class="nav-link active" href="index.html">Home
-                        <span class="visually-hidden">(current)</span>
-                    </a>
-                </li>
-                <li class="nav-item">
-                    <a class="nav-link" href="about.html">About</a>
-                </li>
-            </ul>
-        </div>
-    </div>
-</nav>
-
 <body>
 
-    </br>
-    <div class="container">
-        <div class="row">
-            <div class="col-sm-12 col-md-6 mx-auto">
-
-                <form class="form-group row d-flex align-items-center" id="preferences-form">
-                    <h3 class="text-center">Select Your Preferences</h3>
-                    <div class="form-group row mt-2 d-flex align-items-center">
-                        <div class="col-sm-1"><h3>👗</h3></div>
-                        <label for="formality-preference" class="col-sm-3 col-form-label"><b>Formality:</b></label>
-                        <div class="col-sm-8">
-                            <select class="form-control" id="formality-preference" name="formality-preference">
-                                <option value="Casual">Casual</option>
-                                <option value="Fancy">Fancy</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group row mt-2 d-flex align-items-center">
-                        <div class="col-sm-1"><h3>💰</h3></div>
-                        <label for="budget-preference" class="col-sm-3 col-form-label"><b>Budget:</b></label>
-                        <div class="col-sm-8">
-                            <select class="form-control" id="budget-preference" name="budget-preference">
-                                <option value="Free">Free</option>
-                                <option value="$">$</option>
-                                <option value="$$">$$</option>
-                                <option value="$$$">$$$</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group row mt-2 d-flex align-items-center">
-                        <div class="col-sm-1"><h3>🏘</h3></div>
-                        <label for="location-preference" class="col-sm-3 col-form-label"><b>Location:</b></label>
-                        <div class="col-sm-8">
-                            <select class="form-control" id="location-preference" name="location-preference">
-                                <option value="Home">Home</option>
-                                <option value="Outdoors">Outdoors</option>
-                                <option value="Indoors">Indoors</option>
-                            </select>
-                        </div>
-                    </div>
-                    <div class="form-group row mt-2 d-flex align-items-center">
-                        <div class="col-sm-1"><h3>🍺</h3></div>
-                        <label for="alcohol-preference" class="col-sm-3 col-form-label"><b>Alcohol OK?</b></label>
-                        <div class="col-sm-8">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="Yes" id="alcohol-preference"
-                                    name="alcohol-preference">
-                                <label class="form-check-label" for="alcohol-preference">Yes</label>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="form-group row mt-2 d-flex align-items-center">
-                        <div class="col-sm-1"><h3>📞</h3></div>
-                        <label for="preparation-preference" class="col-sm-3 col-form-label"><b>Preparation OK?</b></label>
-                        <div class="col-sm-8">
-                            <div class="form-check">
-                                <input class="form-check-input" type="checkbox" value="Yes" id="preparation-preference"
-                                    name="preparation-preference">
-                                <label class="form-check-label" for="preparation-preference">Yes</label>
-                            </div>
-                        </div>
-
-                    </div>
-
-
-                    <div class="form-group my-3">
-                        <div class="row">
-                            <button class="btn btn-primary btn-block mx-auto" id="generate-button"
-                                type="submit">Generate Date Night</button>
-                        </div>
-                    </div>
-
-                </form>
-
-
-
+    <nav class="navbar navbar-expand-lg navbar-light bg-light">
+        <div class="container-fluid">
+            <a class="navbar-brand" href="index.html">Date Night Randomizer</a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarColor01"
+                aria-controls="navbarColor01" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarColor01">
+                <ul class="navbar-nav me-auto">
+                    <li class="nav-item">
+                        <a class="nav-link active" href="index.html">Home
+                            <span class="visually-hidden">(current)</span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="about.html">About</a>
+                    </li>
+                </ul>
             </div>
         </div>
+    </nav>
 
-        <section id="date-night-result" style="display: none;">
-            <div class="row">
-                <div class="col-sm-12 col-md-6 mx-auto">
-                    <div class="card bg-light mb-3">
-                        <div class="card-header">
-                            <h4>Date Night Result</h4>
-                        </div>
-                        <div class="card-body">
-                            <p class="card-text">
-                                <div id="result"></div>
-                            </p>
-                        </div>
+    </br>
+    <div class="container col-md-4">
+
+        <form id="preferences-form">
+            <h3 class="text-center">Select Your Preferences</h3>
+
+            <div class="form-group row mt-2 d-flex align-items-center">
+                <div class="col-sm-1">
+                    <h3>👗</h3>
+                </div>
+                <label for="formality-preference" class="col-sm-4 col-form-label"><b>Formality:</b></label>
+                <div class="col-sm-7">
+                    <select class="form-control" id="formality-preference" name="formality-preference">
+                        <option value="Casual">Casual</option>
+                        <option value="Fancy">Fancy</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row mt-2 d-flex align-items-center">
+                <div class="col-sm-1">
+                    <h3>💰</h3>
+                </div>
+                <label for="budget-preference" class="col-sm-4 col-form-label"><b>Budget:</b></label>
+                <div class="col-sm-7">
+                    <select class="form-control" id="budget-preference" name="budget-preference">
+                        <option value="Free">Free</option>
+                        <option value="$">$</option>
+                        <option value="$$">$$</option>
+                        <option value="$$$">$$$</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row mt-2 d-flex align-items-center">
+                <div class="col-sm-1">
+                    <h3>🏘</h3>
+                </div>
+                <label for="location-preference" class="col-sm-4 col-form-label"><b>Location:</b></label>
+                <div class="col-sm-7">
+                    <select class="form-control" id="location-preference" name="location-preference">
+                        <option value="Home">Home</option>
+                        <option value="Outdoors">Outdoors</option>
+                        <option value="Indoors">Indoors</option>
+                    </select>
+                </div>
+            </div>
+
+            <div class="form-group row mt-2 d-flex align-items-center">
+                <div class="col-sm-1">
+                    <h3>🍺</h3>
+                </div>
+                <label for="alcohol-preference" class="col-sm-4 col-form-label"><b>Alcohol OK?</b></label>
+                <div class="col-sm-7">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Yes" id="alcohol-preference"
+                            name="alcohol-preference">
+                        <label class="form-check-label" for="alcohol-preference">Yes</label>
                     </div>
                 </div>
             </div>
 
+            <div class="form-group row mt-2 d-flex align-items-center">
+                <div class="col-sm-1">
+                    <h3>📞</h3>
+                </div>
+                <label for="preparation-preference" class="col-sm-4 col-form-label"><b>Preparation
+                        OK?</b></label>
+                <div class="col-sm-7">
+                    <div class="form-check">
+                        <input class="form-check-input" type="checkbox" value="Yes" id="preparation-preference"
+                            name="preparation-preference">
+                        <label class="form-check-label" for="preparation-preference">Yes</label>
+                    </div>
+                </div>
+            </div>
+
+            <div class="form-group row my-3">
+                <button class="btn btn-primary btn-block" id="generate-button" type="submit">Generate
+                    Date Night</button>
+            </div>
+
+        </form>
+
+        <section id="date-night-result" style="display: none;">
+            <div class="form-group row">
+                <div class="card mb-3" style="padding: 0;">
+                    <h5 class="card-header">Date Night Result</h5>
+                    <div class="card-body">
+                        <p class="card-text">
+                            <div id="result"></div>
+                        </p>
+                    </div>
+                </div>
+            </div>
         </section>
 
     </div>
