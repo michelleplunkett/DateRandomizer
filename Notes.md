@@ -15,3 +15,7 @@ git push master main
 # Favicon
 
 https://fav-gen.com/converter
+
+# How to deploy
+
+https://towardsdatascience.com/how-to-deploy-your-website-to-a-custom-domain-8cb23063c1ff
