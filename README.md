@@ -18,4 +18,9 @@ If you have any questions or feedback, please feel free to [contact me](emailto:
 Fun Fact
 --------
 
-Did you know that over 75% of the code for this website was written in partnership with ChatGPT, the amazing language model AI? That's right, our trusty AI companion helped us power through the boring and tedious parts of coding (including writing this About page 😉), leaving us more time to focus on the fun and creative aspects. Thanks ChatGPT, you're the real MVP!
+Did you know that over 75% of the code for this website was written in partnership with ChatGPT, the amazing language model AI? That's right, our trusty AI companion helped us power through the boring and tedious parts of coding (including writing this About page 😉), leaving me more time to focus on the fun and creative aspects. Thanks ChatGPT, you're the real MVP!
+
+Running Locally
+---------------
+
+The app is designed to be run locally, meaning that you can run it on your own computer rather than having to access it through a website. To run the app locally, you will need to have Python and the required libraries installed on your computer. Once you have Python installed, you can use the command pip install -r requirements.txt to install the necessary libraries. After that, you can run the app using the command python app.py and the app will be available in your web browser at http://localhost:5000/.
