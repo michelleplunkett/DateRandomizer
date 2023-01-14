@@ -17,7 +17,7 @@ def generate():
 
     # Define the logic here 
     def generate_activity(formality, budget, alcohol, location, preparation):
-        df = pd.read_csv('item_list.csv')
+        df = pd.read_csv('static/item_list.csv')
 
         budget_map = {
             'Free': 0,
