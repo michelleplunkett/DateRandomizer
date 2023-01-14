@@ -2,10 +2,9 @@ Item,Category,Alcohol,Formality,Budget,Budget_Value,Location,Preparation_Require
 Dress down,Dress,FALSE,Casual,Free,0,Indoors,FALSE
 Dress up,Dress,FALSE,Fancy,Free,0,Indoors,FALSE
 REI Shopping,Activity,FALSE,Casual,$$$,3,Indoors,FALSE
-Movie at home,Activity,FALSE,Casual,Free,0,Home,FALSE
+Watch a movie at home,Activity,FALSE,Casual,Free,0,Home,FALSE
 Bowling,Activity,FALSE,Casual,$,1,Indoors,TRUE
-The Good Lot,Activity,TRUE,Casual,$,1,Indoors,FALSE
-Brewery,Activity,TRUE,Casual,$,1,Indoors,TRUE
+Go to a brewery,Activity,TRUE,Casual,$,1,Indoors,FALSE
 Target Shopping,Activity,FALSE,Casual,$$,2,Indoors,FALSE
 DIY Drink Tasting,Activity,TRUE,Casual,$$,2,Home,TRUE
 Hockey game,Activity,FALSE,Casual,$$,2,Indoors,TRUE
