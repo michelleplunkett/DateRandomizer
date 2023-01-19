@@ -6,3 +6,4 @@ TODO*
 *.cpython*
 __pycache*
 *cpython*
+*.env
