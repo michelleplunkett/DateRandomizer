@@ -27,3 +27,9 @@ heroku domains:add www.dateideas.app
 For custom domains with google domains, just add a www CNAME with the record that heroku gives you
 
 If you are hosting with dynos, you must enable heroku ACM - heroku certs:auto:enable
+
+# How to run locally
+
+1. python3 app.py
+2. go to http://127.0.0.1:5000
+3. ctrl-c to close out local server
