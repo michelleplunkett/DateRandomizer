@@ -8,6 +8,8 @@ git add .
 git commit -m "new changes"
 git push origin HEAD:master
 
+^^^ This line should update the prod code 
+
 # then push to github 
 
 git push master main 
@@ -16,7 +18,7 @@ git push master main
 
 https://fav-gen.com/converter
 
-# How to deploy
+# How to deploy (1st time only)
 
 https://towardsdatascience.com/how-to-deploy-your-website-to-a-custom-domain-8cb23063c1ff
 
