@@ -8,7 +8,7 @@ git add .
 git commit -m "new changes"
 git push origin HEAD:master
 
-^^^ This line should update the prod code 
+^^^ This last line isn't needed because any push in vs code will update the prod heroku app too
 
 # then push to github 
 

@@ -1,6 +1,7 @@
 document.addEventListener("DOMContentLoaded", function () {
   var generateButton = document.getElementById("generate-button");
   var dateNightResult = document.getElementById("date-night-result");
+  var bookmarkButton = document.getElementById("bookmark-button");
 
   generateButton.addEventListener("click", function (event) {
     event.preventDefault();
@@ -31,4 +32,21 @@ document.addEventListener("DOMContentLoaded", function () {
       preparation: document.getElementById("preparation-preference").checked
     }));
   });
+
+  bookmarkButton.addEventListener("click", function (event) {
+    event.preventDefault();
+
+    // Save the result div to local storage
+    function saveResult(result) {
+      let resultsArray = JSON.parse(localStorage.getItem("results")) || [];
+      resultsArray.push(result);
+      localStorage.setItem("results", JSON.stringify(resultsArray));
+    }
+
+    let result = document.getElementById("result").innerHTML;
+
+    saveResult(result);
+    
+  });
+
 });

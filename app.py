@@ -13,6 +13,10 @@ def home():
 def about():
     return render_template('about.html')
 
+@app.route('/saved/')
+def saved():
+    return render_template('saved.html')
+
 @app.route("/generate", methods=["POST"])
 def generate():
     data = request.get_json()
