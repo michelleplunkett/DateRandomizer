@@ -39,7 +39,8 @@ document.addEventListener("DOMContentLoaded", function () {
     // Save the result div to local storage
     function saveResult(result) {
       let resultsArray = JSON.parse(localStorage.getItem("results")) || [];
-      resultsArray.push(result);
+      if (!resultsArray.includes(result))
+        resultsArray.push(result);
       localStorage.setItem("results", JSON.stringify(resultsArray));
     }
 

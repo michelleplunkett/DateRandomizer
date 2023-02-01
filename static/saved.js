@@ -14,7 +14,11 @@ window.onload = function () {
 
         var card = document.createElement("div");
         card.setAttribute('id', `card-${i}`);
-        card.classList.add("col-4");
+        card.classList.add("col-12");
+        card.classList.add("col-lg-3");
+        card.classList.add("col-md-4");
+        card.classList.add("col-sm-6");
+        card.classList.add("col-xs-12");
         card.classList.add("mb-3");
         card.innerHTML = `
             <div class="card h-100">
