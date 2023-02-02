@@ -13,7 +13,7 @@
     <div class="container-fluid p-3">
 
         <form id="preferences-form">
-            
+
             <h1 class="text-center mb-4">Select Your Preferences</h1>
 
             <div class="form-group row mt-2 d-flex align-items-center col-12 col-md-6 mx-auto">
@@ -48,13 +48,28 @@
                 <div class="col-1">
                     <h3>🏘</h3>
                 </div>
-                <label for="location-preference" class="col-3 col-form-label"><b>Location?</b></label>
+                <label for="location-preference" class="col-3 col-form-label"><b>Place?</b></label>
                 <div class="col-8">
                     <select class="form-control" id="location-preference" name="location-preference">
                         <option value="Home">Home</option>
                         <option value="Outdoors">Outdoors</option>
                         <option value="Indoors">Indoors</option>
                     </select>
+                </div>
+            </div>
+
+            <div class="form-group row mt-2 d-flex align-items-center col-12 col-md-6 mx-auto">
+                <div class="col-1">
+                    <h3>📍</h3>
+                </div>
+                <label for="geo-preference" class="col-3 col-form-label"><b>Your Location</b></label>
+                <div class="col-8">
+                    <div class="input-group">
+                        <input type="text" class="form-control" placeholder="Location" id="geo-preference" required readonly>
+                        <div class="input-group-append">
+                            <button class="btn btn-secondary" type="button" id="geo-button" style="border-top-left-radius: 0; border-bottom-left-radius: 0;"><i class="bi bi-geo-alt-fill"></i></button>
+                        </div>
+                    </div>
                 </div>
             </div>
 
@@ -98,7 +113,8 @@
                 <div class="card mb-3" style="padding: 0;">
                     <h5 class="card-header d-flex justify-content-between align-items-center">
                         Date Night
-                        <button type="button" id="bookmark-button" class="btn btn-sm btn-primary"><i class="bi bi-star-fill"></i></button>
+                        <button type="button" id="bookmark-button" class="btn btn-sm btn-primary"><i
+                                class="bi bi-star-fill"></i></button>
                     </h5>
                     <div class="card-body">
                         <p class="card-text">
